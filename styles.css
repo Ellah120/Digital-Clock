@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 142, 255);
+}
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 700px;
+  height: 400px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.clock {
+  color: red;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 100px
+}
+
+@media (min-width: 550px) and (max-width: 749px) {
+  .container {
+    margin-top: 120px;
+    width: 500px;
+    height: 300px;
+  }
+  .clock {
+    padding-top: 25%;
+    font-size: 50px
+  } 
+}
+
+@media (min-width: 375px) and (max-width: 549px) {
+  .container {
+    margin-top: 165px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+  }
+  .clock {
+    padding-top: 25%;
+    font-size: 50px
+  } 
+}
